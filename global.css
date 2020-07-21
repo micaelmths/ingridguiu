@@ -4,8 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background: #7BC6CC
+body, html {
+  background: linear-gradient(to top, #be93c5, #7bc6cc);
+  height: 100%;
 }
 
 h3 {
@@ -23,18 +24,24 @@ p {
   justify-content: space-between;
 }
 .pagination {
-
-  margin: 25px;
+  margin: 25px 150px;
   display: flex;
   align-items: center;
 }
 .pagination h3 {
   margin: 15px;
 }
+
+.pagination h3:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
 .social {
+  margin: 25px 150px;
   display: flex;
   align-items: center;
 }
 .social a {
-  margin: 8px;
+  margin-top: 5px;
+  padding: 8px;
 }
